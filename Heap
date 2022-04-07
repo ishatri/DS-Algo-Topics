@@ -1,0 +1,15 @@
+I know I was supposed to study Binary tree fully before starting with Heap but the video was good and the prerequisites of Heap containging binary tree elements was already decribed.
+ Video link- https://www.youtube.com/watch?v=HqPJF2L5h9U&list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O&index=35&ab_channel=AbdulBari
+ Learnt about -
+ 
+ 1. Representation of Binary tree using array 
+ 2. Complete Binary Tree
+ 3. Heap 
+     a. Insertion of an Element in a Heap
+     b. Deletion of an element in a heap
+ 4. Heap Sort
+ 5. Heapify
+ 6. Priority Queues.
+ 
+ https://www.programiz.com/dsa/heap-data-structure#:~:text=Heapify%20is%20the%20process%20of,by%20n%2F2%20%2D%201%20.
+ 
