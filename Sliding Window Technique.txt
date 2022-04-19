@@ -1,0 +1,25 @@
+The Sliding Window technique is used when the-
+1. substring/subarray is required 
+2. The largest/smallest etc is required
+3. Sliding window size may or maynot be given
+
+Fixed size window and Variable size window
+
+Algo for fixed size
+
+int i =0,j=0,s=0,maxi=0;
+while(j<n)
+{
+s=s+arr[j];
+if(j-i+1<k)
+{
+j++;
+}
+else if (j-i+1==k)
+{
+maxi = max(maxi,s)
+s= s-arr[i];
+i++;j++;
+}
+}
+return maxi;
