@@ -1,0 +1,8 @@
+Partition is a STL function which is used to divide a range of input on the basis of a particular condition.
+Partition operations :
+1. partition(beg, end, condition) :- This function is used to partition the elements on basis of condition mentioned in its arguments.
+2. is_partitioned(beg, end, condition) :- This function returns boolean true if container is partitioned else returns false.
+
+3. stable_partition(beg, end, condition) :- This function is used to partition the elements on basis of condition mentioned in its arguments in such a way that the relative order of the elements is preserved..
+4. partition_point(beg, end, condition) :- This function returns an iterator pointing to the partition point of container i.e. the first element in the partitioned range [beg,end) for which condition is not true. The container should already be partitioned for this function to work.
+
