@@ -1,0 +1,25 @@
+when trying to find between the 8 directions usuakly in graph and oither algorithms 
+we use the following method which helps us in finding the different directions
+first let us consider the various directions where we will use the rows and coloumn notation
+
+
+[row-1][col]   [row-1][col+1]
+|             /
+|           /
+[row][col] --> [row][col+1]
+|         \ 
+|          \ 
+[row-1][col] [row+1][col+1]
+
+for(int delrow=-1;delrow<=1;delrow++)
+{
+for(int delcol= -1;delcol<=1;delcol++)
+{
+nrow= row+delrow;
+ncol = col + delcol;
+}
+}
+
+row -1 , col-1 , col , col+1
+row , col-1 , col , col+1
+row+1 , col -1 , col , col+1
